@@ -1,0 +1,7 @@
+EXPORTS 
+
+GetFilterVersion
+
+HttpFilterProc
+
+DllMain

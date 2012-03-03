@@ -1,0 +1,5 @@
+This is an ISAPI filter for IIS 5.1 to enable data compression on all content sent from the server. The original project and source can be found at www.flatcompression.org. I did not create the original filter nor do I have any ties to www.flatcompression.org.
+
+This version adds support for compressing chunked HTTP responses. The chunked data is buffered, compressed, and delivered in a normal non-chunked HTTP response. This was required for a very specific project and not neccessarily useful as a general purpose data compression filter. Use at your own risk.
+
+Note: This is a Visual Studio 2010 project.

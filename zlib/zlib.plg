@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zlib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "W:\Temp\RSPAA.tmp" with contents
+[
+/nologo /MTd /W2 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/zlib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"P:\projects\1mal1\Flatcast\source\zlib\adler32.c"
+"P:\projects\1mal1\Flatcast\source\zlib\compress.c"
+"P:\projects\1mal1\Flatcast\source\zlib\crc32.c"
+"P:\projects\1mal1\Flatcast\source\zlib\deflate.c"
+"P:\projects\1mal1\Flatcast\source\zlib\gzio.c"
+"P:\projects\1mal1\Flatcast\source\zlib\infblock.c"
+"P:\projects\1mal1\Flatcast\source\zlib\infcodes.c"
+"P:\projects\1mal1\Flatcast\source\zlib\inffast.c"
+"P:\projects\1mal1\Flatcast\source\zlib\inflate.c"
+"P:\projects\1mal1\Flatcast\source\zlib\inftrees.c"
+"P:\projects\1mal1\Flatcast\source\zlib\infutil.c"
+"P:\projects\1mal1\Flatcast\source\zlib\maketree.c"
+"P:\projects\1mal1\Flatcast\source\zlib\trees.c"
+"P:\projects\1mal1\Flatcast\source\zlib\uncompr.c"
+"P:\projects\1mal1\Flatcast\source\zlib\zutil.c"
+]
+Creating command line "cl.exe @W:\Temp\RSPAA.tmp" 
+Creating temporary file "W:\Temp\RSPAB.tmp" with contents
+[
+/nologo /out:"Debug\zlib.lib" 
+.\Debug\adler32.obj
+.\Debug\compress.obj
+.\Debug\crc32.obj
+.\Debug\deflate.obj
+.\Debug\gzio.obj
+.\Debug\infblock.obj
+.\Debug\infcodes.obj
+.\Debug\inffast.obj
+.\Debug\inflate.obj
+.\Debug\inftrees.obj
+.\Debug\infutil.obj
+.\Debug\maketree.obj
+.\Debug\trees.obj
+.\Debug\uncompr.obj
+.\Debug\zutil.obj
+]
+Creating command line "link.exe -lib @W:\Temp\RSPAB.tmp"
+<h3>Output Window</h3>
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+infblock.c
+infcodes.c
+inffast.c
+inflate.c
+inftrees.c
+infutil.c
+maketree.c
+trees.c
+uncompr.c
+zutil.c
+Creating library...
+
+
+
+<h3>Results</h3>
+zlib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

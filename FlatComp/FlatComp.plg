@@ -1,0 +1,117 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FlatComp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4A8.tmp" with contents
+[
+/nologo /MTd /W4 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /Fp"Debug/FlatComp.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Margull\p\projects\OpenSource\FlatCompression\source\FlatComp\FlatComp.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4A8.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4A9.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib zlib.lib /nologo /dll /incremental:yes /pdb:"Debug/FlatComp.pdb" /debug /machine:I386 /def:".\FlatComp.def" /out:"Debug/FlatComp.dll" /implib:"Debug/FlatComp.lib" /pdbtype:sept /libpath:"..\zlib\Debug" 
+.\Debug\DebugTools.obj
+.\Debug\FlatComp.obj
+.\Debug\Registry.obj
+.\Debug\StdAfx.obj
+.\Debug\trace_html.obj
+\Margull\p\projects\OpenSource\FlatCompression\source\zlib\Debug\zlib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4A9.tmp"
+<h3>Output Window</h3>
+Compiling...
+FlatComp.cpp
+d:\program files\microsoft visual studio\vc98\include\xmemory(39) : warning C4100: '_P' : unreferenced formal parameter
+d:\program files\microsoft visual studio\vc98\include\xmemory(41) : warning C4100: '_P' : unreferenced formal parameter
+d:\program files\microsoft visual studio\vc98\include\vector(249) : warning C4663: C++ language change: to explicitly specialize class template 'vector' use the following syntax:
+        template<> class vector<bool,class std::allocator<unsigned int> > ...
+d:\program files\microsoft visual studio\vc98\include\xlocale(242) : warning C4511: 'codecvt_base' : copy constructor could not be generated
+        d:\program files\microsoft visual studio\vc98\include\xlocale(223) : see declaration of 'codecvt_base'
+d:\program files\microsoft visual studio\vc98\include\xlocale(242) : warning C4512: 'codecvt_base' : assignment operator could not be generated
+        d:\program files\microsoft visual studio\vc98\include\xlocale(223) : see declaration of 'codecvt_base'
+d:\program files\microsoft visual studio\vc98\include\xlocale(296) : warning C4663: C++ language change: to explicitly specialize class template 'codecvt' use the following syntax:
+        template<> class codecvt<unsigned short,char,int> ...
+d:\program files\microsoft visual studio\vc98\include\xlocale(398) : warning C4511: 'codecvt<unsigned short,char,int>' : copy constructor could not be generated
+        d:\program files\microsoft visual studio\vc98\include\xlocale(296) : see declaration of 'codecvt<unsigned short,char,int>'
+d:\program files\microsoft visual studio\vc98\include\xlocale(398) : warning C4512: 'codecvt<unsigned short,char,int>' : assignment operator could not be generated
+        d:\program files\microsoft visual studio\vc98\include\xlocale(296) : see declaration of 'codecvt<unsigned short,char,int>'
+d:\program files\microsoft visual studio\vc98\include\xlocale(387) : warning C4018: '<' : signed/unsigned mismatch
+d:\program files\microsoft visual studio\vc98\include\xlocale(420) : warning C4511: 'ctype_base' : copy constructor could not be generated
+        d:\program files\microsoft visual studio\vc98\include\xlocale(410) : see declaration of 'ctype_base'
+d:\program files\microsoft visual studio\vc98\include\xlocale(420) : warning C4512: 'ctype_base' : assignment operator could not be generated
+        d:\program files\microsoft visual studio\vc98\include\xlocale(410) : see declaration of 'ctype_base'
+d:\program files\microsoft visual studio\vc98\include\xlocale(519) : warning C4663: C++ language change: to explicitly specialize class template 'ctype' use the following syntax:
+        template<> class ctype<char> ...
+d:\program files\microsoft visual studio\vc98\include\xlocale(611) : warning C4511: 'ctype<char>' : copy constructor could not be generated
+        d:\program files\microsoft visual studio\vc98\include\xlocale(519) : see declaration of 'ctype<char>'
+d:\program files\microsoft visual studio\vc98\include\xlocale(611) : warning C4512: 'ctype<char>' : assignment operator could not be generated
+        d:\program files\microsoft visual studio\vc98\include\xlocale(519) : see declaration of 'ctype<char>'
+d:\program files\microsoft visual studio\vc98\include\xlocale(552) : warning C4100: '_D' : unreferenced formal parameter
+d:\program files\microsoft visual studio\vc98\include\xlocale(554) : warning C4100: '_D' : unreferenced formal parameter
+d:\program files\microsoft visual studio\vc98\include\ostream(50) : warning C4512: 'sentry' : assignment operator could not be generated
+        d:\program files\microsoft visual studio\vc98\include\ostream(38) : see declaration of 'sentry'
+        d:\program files\microsoft visual studio\vc98\include\ostream(373) : see reference to class template instantiation 'std::basic_ostream<char,struct std::char_traits<char> >' being compiled
+d:\program files\microsoft visual studio\vc98\include\ostream(50) : warning C4512: 'sentry' : assignment operator could not be generated
+        d:\program files\microsoft visual studio\vc98\include\ostream(38) : see declaration of 'sentry'
+        d:\program files\microsoft visual studio\vc98\include\ostream(379) : see reference to class template instantiation 'std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >' being compiled
+d:\program files\microsoft visual studio\vc98\include\xlocale(513) : warning C4511: 'ctype<unsigned short>' : copy constructor could not be generated
+        d:\program files\microsoft visual studio\vc98\include\istream(573) : see reference to class template instantiation 'std::ctype<unsigned short>' being compiled
+d:\program files\microsoft visual studio\vc98\include\xlocale(513) : warning C4512: 'ctype<unsigned short>' : assignment operator could not be generated
+        d:\program files\microsoft visual studio\vc98\include\istream(573) : see reference to class template instantiation 'std::ctype<unsigned short>' being compiled
+D:\Margull\p\projects\OpenSource\FlatCompression\source\FlatComp\FlatComp.cpp(193) : warning C4127: conditional expression is constant
+D:\Margull\p\projects\OpenSource\FlatCompression\source\FlatComp\FlatComp.cpp(263) : warning C4127: conditional expression is constant
+D:\Margull\p\projects\OpenSource\FlatCompression\source\FlatComp\FlatComp.cpp(231) : warning C4100: 'type' : unreferenced formal parameter
+D:\Margull\p\projects\OpenSource\FlatCompression\source\FlatComp\FlatComp.cpp(399) : warning C4804: '>' : unsafe use of type 'bool' in operation
+D:\Margull\p\projects\OpenSource\FlatCompression\source\FlatComp\FlatComp.cpp(508) : warning C4018: '<' : signed/unsigned mismatch
+D:\Margull\p\projects\OpenSource\FlatCompression\source\FlatComp\FlatComp.cpp(511) : warning C4018: '>' : signed/unsigned mismatch
+D:\Margull\p\projects\OpenSource\FlatCompression\source\FlatComp\FlatComp.cpp(582) : warning C4127: conditional expression is constant
+D:\Margull\p\projects\OpenSource\FlatCompression\source\FlatComp\FlatComp.cpp(601) : warning C4127: conditional expression is constant
+D:\Margull\p\projects\OpenSource\FlatCompression\source\FlatComp\FlatComp.cpp(647) : warning C4100: 'pFC' : unreferenced formal parameter
+D:\Margull\p\projects\OpenSource\FlatCompression\source\FlatComp\FlatComp.cpp(727) : warning C4100: 'pReq' : unreferenced formal parameter
+D:\Margull\p\projects\OpenSource\FlatCompression\source\FlatComp\FlatComp.cpp(783) : warning C4100: 'pReq' : unreferenced formal parameter
+D:\Margull\p\projects\OpenSource\FlatCompression\source\FlatComp\FlatComp.cpp(923) : warning C4100: 'pFC' : unreferenced formal parameter
+D:\Margull\p\projects\OpenSource\FlatCompression\source\FlatComp\FlatComp.cpp(1108) : warning C4100: 'lpReserved' : unreferenced formal parameter
+D:\Margull\p\projects\OpenSource\FlatCompression\source\FlatComp\FlatComp.cpp(1105) : warning C4100: 'hModule' : unreferenced formal parameter
+d:\program files\microsoft visual studio\vc98\include\streambuf(181) : warning C4100: '_Loc' : unreferenced formal parameter
+        d:\program files\microsoft visual studio\vc98\include\streambuf(182) : while compiling class-template member function 'void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::imbue(const class std::locale &)'
+d:\program files\microsoft visual studio\vc98\include\streambuf(181) : warning C4100: '_Loc' : unreferenced formal parameter
+        d:\program files\microsoft visual studio\vc98\include\streambuf(182) : while compiling class-template member function 'void __thiscall std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::imbue(const class std::locale &)'
+d:\program files\microsoft visual studio\vc98\include\vector(156) : warning C4018: '<' : signed/unsigned mismatch
+        d:\program files\microsoft visual studio\vc98\include\vector(156) : while compiling class-template member function 'void __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::insert(unsigned int *,unsigned int,const unsigned int &)'
+d:\program files\microsoft visual studio\vc98\include\vector(167) : warning C4018: '<' : signed/unsigned mismatch
+        d:\program files\microsoft visual studio\vc98\include\vector(156) : while compiling class-template member function 'void __thiscall std::vector<unsigned int,class std::allocator<unsigned int> >::insert(unsigned int *,unsigned int,const unsigned int &)'
+d:\program files\microsoft visual studio\vc98\include\vector(156) : warning C4018: '<' : signed/unsigned mismatch
+        d:\program files\microsoft visual studio\vc98\include\vector(156) : while compiling class-template member function 'void __thiscall std::vector<char *,class std::allocator<char *> >::insert(char ** ,unsigned int,char *const & )'
+d:\program files\microsoft visual studio\vc98\include\vector(167) : warning C4018: '<' : signed/unsigned mismatch
+        d:\program files\microsoft visual studio\vc98\include\vector(156) : while compiling class-template member function 'void __thiscall std::vector<char *,class std::allocator<char *> >::insert(char ** ,unsigned int,char *const & )'
+d:\program files\microsoft visual studio\vc98\include\xstring(600) : warning C4245: 'initializing' : conversion from 'const int' to 'const unsigned int', signed/unsigned mismatch
+        d:\program files\microsoft visual studio\vc98\include\xmemory(59) : while compiling class-template static data member 'const unsigned int std::basic_string<char,std::char_traits<char>,std::allocator<char> >::npos'
+d:\program files\microsoft visual studio\vc98\include\xmemory(37) : warning C4100: '_P' : unreferenced formal parameter
+        d:\program files\microsoft visual studio\vc98\include\xmemory(68) : see reference to function template instantiation 'void __cdecl std::_Destroy(unsigned int *)' being compiled
+d:\program files\microsoft visual studio\vc98\include\xmemory(37) : warning C4100: '_P' : unreferenced formal parameter
+        d:\program files\microsoft visual studio\vc98\include\xmemory(68) : see reference to function template instantiation 'void __cdecl std::_Destroy(char ** )' being compiled
+Linking...
+   Creating library Debug/FlatComp.lib and object Debug/FlatComp.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4AE.bat" with contents
+[
+@echo off
+build.exe
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4AE.bat"
+
+
+build counter: reading build
+building 227
+
+
+
+<h3>Results</h3>
+FlatComp.dll - 0 error(s), 43 warning(s)
+</pre>
+</body>
+</html>

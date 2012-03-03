@@ -1,0 +1,6 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FlatCompression]
+"Flags"=dword:00000000
+"mime"="text/"
+
